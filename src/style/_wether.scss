@@ -1,0 +1,46 @@
+.wether {
+  display: flex;
+  justify-content: center; 
+
+  h1 {
+    padding-left: 35px;
+    font-size: 1.4rem;
+  }
+  h2 {
+    padding-left: 35px;
+    font-size: 1rem;
+  }
+  h3 {
+    padding-left: 35px;
+  }
+  h4 {
+    font-size: 0.7rem;
+    padding-left: 35px;
+    margin: 0;
+  }
+  .icon {
+    margin-top: -5%;
+    margin-bottom: -10%;
+    margin-left: 8%;
+  }
+
+  button {
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid rgb(65, 65, 65);
+    padding: 0.3rem;
+    transition: all 0.3s ease;
+    &:hover {
+      background: rgb(65, 65, 65);
+      color: white;
+    }
+  }
+  input {
+    padding: 0.3rem;
+  }
+}
+@media screen and(max-width:768px) {
+  input {
+    width: 50%;
+  }
+}
